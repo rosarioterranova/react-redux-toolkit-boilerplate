@@ -1,9 +1,10 @@
-function App() {
+import PeopleList from "./components/PeopleList";
+
+export default function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <h1>React Redux Toolkit Boilerplate</h1>
+      <PeopleList />
     </div>
   );
 }
-
-export default App;
